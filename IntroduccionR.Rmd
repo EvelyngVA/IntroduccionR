@@ -1,8 +1,15 @@
 ---
 title: "IntroduccionR"
 author: "Evelyng Vasquez"
-output: html_document
-
+output:
+html_document:
+    highlight: espresso
+    theme: paper
+    toc: yes
+    toc_depth: 4
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
 ---
 
 # Crear un identificador de nombre "ciudad" y asigne como valor el nombre de alguna ciudad
@@ -13,7 +20,7 @@ ciudad
 ```
 
 
-# Esta parte en el la rubrica no esta SEGUNDA PARTE DE LA 1 
+# Esta parte en el la rubrica no esta SEGUNDA PARTE del ejercio  LA 1 
 ```{r}
 paises_andes <- c("Venezuela","Colombia","Ecuador","Peru","Argentina",
                   "Brasil","Chile")
