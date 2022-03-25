@@ -1,0 +1,46 @@
+---
+title: "IntroduccionR"
+author: "Evelyng Vasquez"
+output: html_document
+
+---
+
+# Crear un identificador de nombre "ciudad" y asigne como valor el nombre de alguna ciudad
+```{r}
+
+ciudad <- "Esmeraldas"
+ciudad
+```
+
+
+
+```{r}
+paises_andes <- c("Venezuela","Colombia","Ecuador","Peru","Argentina",
+                  "Brasil","Chile")
+paises_andes
+
+```
+
+# Parte
+
+```{r }
+poblacion_america <- data.frame(identador = seq(1:12),
+                                posicion = as.factor(c(rep(0,10),1,1)),
+                                paises = c("Egipto","Rusia","Idonesia",
+                                           "Turkia","USA","China","Japon",
+                                           "Croacia","Polonia", "Nicaragua",
+                                           "Guatemala", "Samoa"))
+                                poblacion <- c(6756.78,345.67,56.7,47.23,89.78)
+poblacion_america
+                                
+```
+
+```{r}
+datos <- data.frame(DNase)
+library(dplyr)
+datos_limpios <- filter(datos, conc < 0.2 & conc >0.1)
+datos_limpios2 <-filter(datos, Run != 2 & conc > 0.2 & density <= 1)
+datos_finales <- filter(datos,conc < 0.2 & conc > 0.1)
+datos_finales
+```
+
